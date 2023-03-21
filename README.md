@@ -28,7 +28,7 @@ yarn
 cd umbra-js
 ```
 
-Create .env and fill env `INFURA_ID`
+Create .env and fill env `INFURA_ID` under dir `umbra-js`.
 
 ```
 yarn test
