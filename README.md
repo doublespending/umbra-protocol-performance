@@ -21,6 +21,19 @@
 	<br />
 </div>
 
+## Performance Test
+
+```
+yarn
+cd umbra-js
+```
+
+Create .env and fill env `INFURA_ID`
+
+```
+yarn test
+```
+
 ## About
 
 Umbra is a protocol for stealth payments on EVM blockchain networks. It enables privacy preserving transactions where **the receiver's identity is only known to the sender and receiver**.
@@ -91,10 +104,10 @@ This repository uses [yarn](https://yarnpkg.com/) for package management and [vo
 
 Umbra is a monorepo consisting of 4 packages:
 
-* [frontend](frontend/) — Frontend web3 app for setting up and using Umbra, deployed at [app.umbra.cash](https://app.umbra.cash)
-* [contracts-core](contracts-core/) — Solidity contracts used in the Umbra Protocol.
-* [contracts-periphery](contracts-periphery/) — Solidity contracts used by the Umbra frontend to add features and improve UX.
-* [umbra-js](umbra-js/) — A TypeScript library for building Umbra-enabled web3 apps in node.js or in the browser.
+- [frontend](frontend/) — Frontend web3 app for setting up and using Umbra, deployed at [app.umbra.cash](https://app.umbra.cash)
+- [contracts-core](contracts-core/) — Solidity contracts used in the Umbra Protocol.
+- [contracts-periphery](contracts-periphery/) — Solidity contracts used by the Umbra frontend to add features and improve UX.
+- [umbra-js](umbra-js/) — A TypeScript library for building Umbra-enabled web3 apps in node.js or in the browser.
 
 The monorepo structure simplifies the development workflow.
 
